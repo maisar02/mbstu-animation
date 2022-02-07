@@ -11,7 +11,7 @@ body
 }
 p
 {
-    font-size: 120px;
+    font-size: 50px;
     font-weight: bold;
     text-align: center;
     color: #333;
@@ -36,4 +36,10 @@ span
     {
     filter: hue-rotate(360deg);
     }
+}
+@media screen and (min-width:576px){
+p{
+    font-size: 120px;
+    }
+
 }
